@@ -1,0 +1,39 @@
+package com.enc.blog.services;
+
+import java.util.List;
+
+import com.enc.blog.entities.User;
+
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public User createUser(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public User updateUser(Long userId, User newUser) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<User> getAllUser() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public User getUserById(Long userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteUser(Long userId) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

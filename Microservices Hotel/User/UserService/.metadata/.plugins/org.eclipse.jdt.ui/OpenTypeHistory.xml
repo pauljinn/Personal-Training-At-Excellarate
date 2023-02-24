@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=UserService/C:\/Users\/amans\/.m2\/repository\/org\/hibernate\/hibernate-core\/5.6.12.Final\/hibernate-core-5.6.12.Final.jar=/maven.pomderived=/true=/=/maven.groupId=/org.hibernate=/=/maven.artifactId=/hibernate-core=/=/maven.version=/5.6.12.Final=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.hibernate.dialect(MySQL8Dialect.class[MySQL8Dialect" modifiers="33" timestamp="1675246480143"/>
+    <typeInfo handle="=UserService/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.exc.user.service.services{UserService.java[UserService" modifiers="513" timestamp="1675336293972"/>
+    <typeInfo handle="=UserService/C:\/Users\/amans\/Downloads\/sts-4.17.0.RELEASE\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\/jre\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/maven.pomderived=/true=/&lt;java.lang(Exception.class[Exception" modifiers="33" timestamp="1672302130287"/>
+    <typeInfo handle="=HotelService/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.exc.hotel.services{HotelService.java[HotelService" modifiers="513" timestamp="1675682806486"/>
+    <typeInfo handle="=HotelService/C:\/Users\/amans\/Downloads\/sts-4.17.0.RELEASE\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\/jre\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/maven.pomderived=/true=/&lt;java.lang(RuntimeException.class[RuntimeException" modifiers="33" timestamp="1672302130287"/>
+    <typeInfo handle="=RatingService/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.exc.rating.service{RatingService.java[RatingService" modifiers="513" timestamp="1675768832628"/>
+</typeInfoHistroy>

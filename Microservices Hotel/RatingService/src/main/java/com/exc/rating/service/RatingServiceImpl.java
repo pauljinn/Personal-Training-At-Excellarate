@@ -1,0 +1,38 @@
+package com.exc.rating.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.exc.rating.entities.Rating;
+import com.exc.rating.repository.RatingRepository;
+
+@Service
+public class RatingServiceImpl implements RatingService {
+	@Autowired
+	RatingRepository ratingRepository;
+	
+	@Override
+	public Rating create(Rating rating) {
+		 return ratingRepository.save(rating);
+	}
+
+	@Override
+	public List<Rating> getRatingsOfUser(String userId) {
+		List<Rating> ratingsOfUser = ratingRepository.findByUserId(userId);
+		return ratingsOfUser;
+	}
+
+	@Override
+	public List<Rating> getRatingsOfHotel(String hoteId) {
+		List<Rating> hotelRatings = ratingRepository.findByHotelId(hoteId);
+		return hotelRatings;
+	}
+
+	@Override
+	public List<Rating> getRatings() {
+		return ratingRepository.findAll();
+	}
+
+}

@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: mongodb://localhost:27017/ratingdb 
+server:
+  port: 8083

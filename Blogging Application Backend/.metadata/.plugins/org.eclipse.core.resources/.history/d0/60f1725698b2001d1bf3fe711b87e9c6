@@ -1,0 +1,11 @@
+package com.enc.blog.exceptions;
+
+public class ExceptionPayload extends RuntimeException{
+	public ExceptionPayload() {
+		super("User with given Id is not present");
+	}
+	
+	public ExceptionPayload(String msg) {
+		super(msg);
+	}
+}

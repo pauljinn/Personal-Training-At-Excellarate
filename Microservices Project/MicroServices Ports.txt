@@ -1,0 +1,5 @@
+user-service = 9001
+contact-service = 9002
+eureka-server=8761
+api-gateway=8999
+hystrix-dashboard=9555

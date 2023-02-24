@@ -1,0 +1,11 @@
+package com.enc.blog.exceptions;
+
+public class ResourceNotFoundExceptionPayload extends RuntimeException{
+	public ResourceNotFoundExceptionPayload() {
+		super("User with given Id is not present");
+	}
+	
+	public ResourceNotFoundExceptionPayload(String msg) {
+		super(msg);
+	}
+}

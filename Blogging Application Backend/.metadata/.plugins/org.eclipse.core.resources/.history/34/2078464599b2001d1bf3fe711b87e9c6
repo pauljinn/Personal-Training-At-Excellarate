@@ -1,0 +1,6 @@
+package com.enc.blog.payloads;
+
+public class ValidationExcepiton extends RuntimeException {
+	
+
+}

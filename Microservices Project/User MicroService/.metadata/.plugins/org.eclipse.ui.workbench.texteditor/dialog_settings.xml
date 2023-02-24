@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="createSystem"/>
+		<list key="findhistory">
+			<item value="createSystem"/>
+			<item value="HttpClient"/>
+			<item value="httpClient"/>
+			<item value="Client"/>
+			<item value="client"/>
+			<item value="createRequest"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="447"/>
+		<item key="DIALOG_Y_ORIGIN" value="240"/>
+	</section>
+</section>

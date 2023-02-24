@@ -1,0 +1,6 @@
+user service 8081
+hotel service 8082
+rating service 8083
+Api Gateway 8084
+Config Server 8085
+registry service 8761

@@ -1,0 +1,9 @@
+package com.exc.rating.repository;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.exc.rating.entities.Rating;
+
+public interface RatingRepository extends MongoRepository<Rating, String>{
+
+}

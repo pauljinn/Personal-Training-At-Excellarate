@@ -1,0 +1,5 @@
+package com.exc.hotel.controllers;
+
+public class StaffController {
+
+}

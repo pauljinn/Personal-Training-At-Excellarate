@@ -1,0 +1,5 @@
+package com.exc.rating.service;
+
+public interface RatingService {
+
+}

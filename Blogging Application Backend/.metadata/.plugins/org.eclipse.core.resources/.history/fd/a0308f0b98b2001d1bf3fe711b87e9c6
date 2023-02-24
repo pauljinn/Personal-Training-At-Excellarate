@@ -1,0 +1,11 @@
+package com.enc.blog.exceptions;
+
+public class UserNotFoundException extends RuntimeException{
+	public UserNotFoundException() {
+		super("User with given Id is not present");
+	}
+	
+	public UserNotFoundException(String msg) {
+		super(msg);
+	}
+}

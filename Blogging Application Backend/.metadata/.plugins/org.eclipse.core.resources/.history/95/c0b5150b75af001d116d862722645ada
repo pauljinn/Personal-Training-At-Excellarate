@@ -1,0 +1,5 @@
+package com.enc.blog.entities;
+
+public class User {
+
+}

@@ -1,0 +1,59 @@
+package com.enc.blog.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.enc.blog.entities.User;
+import com.enc.blog.exceptions.UserNotFoundException;
+import com.enc.blog.repositories.UserRepo;
+
+@Service
+public class UserServiceImpl implements UserService {
+	@Autowired
+	UserRepo userRepository;
+	
+	@Override
+	public User createUser(User user) {
+		User createdUser = userRepository.save(user);
+		return createdUser;
+	}
+
+	@Override
+	public User updateUser(Long userId, User newUser) {
+		boolean userPresent = userExist(userId);
+		if(userPresent) {
+			return createUser(newUser);
+		}
+		else {
+			throw new UserNotFoundException("User with ID " + userId + " not present");
+		}
+	}
+
+	@Override
+	public List<User> getAllUser() {
+		return userRepository.findAll();
+	}
+
+	@Override
+	public User getUserById(Long userId) {
+		return userRepository.findById(userId).orElseThrow(()->new UserNotFoundException("User with ID " + userId + " not present"));
+	}
+
+	@Override
+	public void deleteUser(Long userId) {
+		boolean userPresent = userExist(userId);
+		if(userPresent) {
+			userRepository.deleteById(userId);
+		}
+		else {
+			throw new UserNotFoundException("User with ID " + userId + " not present");
+		}
+	}
+	
+	public boolean userExist(Long userId) {
+		return userRepository.existsById(userId);
+	}
+
+}

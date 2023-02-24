@@ -1,0 +1,5 @@
+package com.enc.blog.services;
+
+public interface UserService {
+
+}

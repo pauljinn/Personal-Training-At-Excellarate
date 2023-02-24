@@ -1,0 +1,18 @@
+package com.exc.hotel.controllers;
+
+import java.util.*;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/staff")
+public class StaffController {
+	public ResponseEntity<List<String>> getStaffName(){
+		List<String> staffName = Arrays.asList(new String[]{"Ram", "Shyam", "Gita"});
+		return ResponseEntity.ok(staffName);
+		
+	}
+
+}
